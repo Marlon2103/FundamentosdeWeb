@@ -1,0 +1,63 @@
+/*Estilos da pagina index html*/
+.center{
+    text-align: center;
+    color: aliceblue;
+    
+}
+.fundo{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    background-color: rgb(114, 95, 77);
+    align-items: center;
+}
+/*Modificar a largura, espaçamento e fonte dos botões de inserção de paginas */
+#menu li{
+display: inline;
+padding: 15px;
+font-size: 20px;
+}
+/*Modificar os botões de inserção de paginas */
+#menu li a{
+    text-decoration: none;
+    color: rgb(236, 223, 223);
+    }
+    /*Colocar cor ao passar o mouse sobre os botões de inserção*/
+    #menu li a:hover{
+color: crimson;
+    }
+/*diminuir os pixels da div */
+.text{
+    padding: 10px;
+    
+}
+/*deixar a borda arredondada da imagen*/
+.br-50{
+    border-radius: 50%;
+}
+/*altura e largura da imagen */
+.wh{
+    width: 300px;
+    height: 300px;
+}
+/*Espaçamento para foto nao ficar grudada na borda */
+.p-30{
+    padding: 20px;
+}
+.rede-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/*Estilos da pagina Contato html*/
+
+.ml-50{
+    margin-left: 50px;
+}
