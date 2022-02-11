@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="Assets/Css/style.css">
+</head>
+
+<body class="fundo">
+
+    <ul id="menu">
+        <li>
+            <a href="index.html"> Home </a>
+        </li>
+
+        <li>
+            <a href="contato.html"> Contato </a>
+        </li>
+    </ul>
+
+
+    <h1 class="center">Entre em contato comigo</h1>
+
+    <div class="container mb-50">
+        <div>
+
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" onkeyup='validaNome()'>
+                <div id="txtNome"></div>
+                <br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" onkeyup='validaEmail()'>
+                <div id="txtEmail"></div>
+                <br>
+
+                <label for="assunto">Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="40" rows="5" onkeyup='validaAssunto()'></textarea>
+                <div id="txtAssunto"></div>
+                <br>
+                <br>
+                <button onclick='enviar()'>Enviar</button>
+            </form>
+
+        </div>
+        <div class="ml-50">
+
+
+            <p>Rua: Manoel Bandeira, 100.</p>
+            <p>Cidade: Máua-São Paulo.</p>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.5037841149037!2d-46.43569338559386!3d-23.657935471049644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6eb1952784e5%3A0xe7e9ad46b0b631b3!2sR.%20Manoel%20Bandeira%2C%20586%20-%20Jardim%20Miranda%20D&#39;Aviz%2C%20Mau%C3%A1%20-%20SP%2C%2009330-500!5e0!3m2!1spt-BR!2sbr!4v1644596401866!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZomm()"
+                onmouseout="mapaNormal()" id="mapa"></iframe>
+
+        </div>
+    </div>
+    <footer>
+
+        <div class="container mb_50">
+            <a href="https://www.instagram.com/macieldeveloper/" target="_blank">
+                <img class="rede-social" src="Assets/imagen/instagram.png" alt="Logo do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/marlon-maciel-b87b3a207/" target="_blank">
+                <img class="rede-social" src="Assets/imagen/linkedin.png" alt="Logo do linkedin">
+            </a>
+
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Marlon Maciel &copy;
+        </p>
+    </footer>
+
+    <script src="Assets/js/script.js"></script>
+
+</body>
+
+</html>
